@@ -15,10 +15,10 @@
 
                 const propertyTitle = card.querySelector('h3').innerText;
 
-                // Simulate sending email
+       
                 alert(`Érdeklődés rögzítve: ${propertyTitle}\nEmail: ${email}`);
 
-                // Optionally: Clear email input after submission
+       
                 emailInput.value = '';
             });
         });
@@ -59,7 +59,7 @@
 
             cardContainer.appendChild(newCard);
 
-            // Clear input fields
+  
             document.getElementById('newTitle').value = '';
             document.getElementById('newDescription').value = '';
             document.getElementById('newImageUrl').value = '';
